@@ -4,18 +4,19 @@ import './App.css';
 
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
-import Hello from './components/Hello';
-
+import Hello from './components/Hello'
+import Mymap from './components/Rmap'
 
 function App() {
   return (
     <div className="App">
       {/* adding props */}
+
       <Greet name="King" codeName="C" />
       <Greet name="Jack" codeName="V"/>
      <Welcome name="Queen"/>
      <Hello name="Joker" codeName="A"/>
-     
+     <Mymap/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
